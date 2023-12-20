@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['text']
+
+roboflow:
+  workspace: firstworkspace-kjpn7
+  project: vnh-detection-binh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/firstworkspace-kjpn7/vnh-detection-binh/dataset/1
